@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kierema | Leccion 4</title>
+    <link rel="stylesheet" href="CSS/estilos-sistema.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="js/leccion-o.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <a class="logo" style="padding-top: 13px;"><img style="width: 40px ;" src="IMG\logo.png">&nbsp;&nbsp;Kierema</a>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="leccion-a.html">Leccion A</a></li>
+                    <li><a href="leccion-e.html">Leccion E</a></li>
+                    <li><a href="leccion-i.html">Leccion I</a></li>
+                    <li><a href="leccion-o.html">Leccion O</a></li>
+                    <li><a href="leccion-u.html">Leccion U</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="inicio">
+            <section class="lecciones">
+                <t1>Leccion 4: O</h1><br>
+                    <p>Con la mano se forma una letra o. Todos los 
+                        dedos se tocan por las puntas.
+                    </p>
+                    <div id="card-carousel">
+                        <div class="card-wrapper">
+                            <div class="container">
+                                <img class="front" src="img/O.png">
+                                <img class="back" src="img/4.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><input type="submit" onclick="init()" value="Comenzar!"><br>
+            </section>
+                
+            <div id="camaracontenedor">
+                <div id="camara-porcentajes">
+                    <p id="mensaje">Presione Comenzar Para Iniciar la Camara</p>
+                    <div id="webcam-container"></div>
+                    <div id="progress-container"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
