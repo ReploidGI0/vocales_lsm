@@ -156,6 +156,12 @@ input[type="submit"]:hover{
     color: white;
 }
 
+#elemento{
+    margin-left: 28px;
+    color: green;
+    font-weight: bold;
+}
+
 /* A PARTIR DE AQUI EMPIEZAN LOS ESTILOS PARA LOS ELEMENTOS DEL MODELO*/
 /*Estilos para el apartado de la webcam*/
 #camaracontenedor{
