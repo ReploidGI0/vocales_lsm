@@ -55,4 +55,12 @@ async function predict() {
 function updateProgress(index, probability) {
     const progressElement = progressContainer.childNodes[index];
     progressElement.style.width = `${probability * 100}%`;
+    evaluation(index, probability);
+}
+
+function evaluation(ind, prob){
+    if(ind == 1 && prob>0.95)
+    {
+        document.getElementById('elemento').style.display = 'inline';
+    }
 }
